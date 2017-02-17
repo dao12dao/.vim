@@ -70,3 +70,5 @@ let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 let g:pydiction_location = '/home/j-lijiangshui/.vim/bundle/pydiction/complete-dict'
 let g:pydiction_menu_height = 3
 
+" python mode set no color column of max width "
+let g:pymode_options_colorcolumn=0
