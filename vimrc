@@ -22,7 +22,7 @@ set noerrorbells
 set backspace=indent,eol,start
 set hidden
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
-set re=1    " 语法高亮渲染加快 "
+set re=1    
 xnoremap p pgvy
 nnoremap KK i<CR><Esc>
 
@@ -67,7 +67,7 @@ let g:syntastic_python_checkers = ['python']
 let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
 
 " python auto complete "
-let g:pydiction_location = '/home/j-lijiangshui/.vim/bundle/pydiction/complete-dict'
+let g:pydiction_location = '~/.vim/bundle/pydiction/complete-dict'
 let g:pydiction_menu_height = 3
 
 " python mode set no color column of max width "
