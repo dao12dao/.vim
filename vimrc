@@ -72,3 +72,6 @@ let g:pydiction_menu_height = 3
 
 " python mode set no color column of max width "
 let g:pymode_options_colorcolumn=0
+
+" html and css ,emmet "
+let g:user_emmet_expandabbr_key = '<Tab>'
